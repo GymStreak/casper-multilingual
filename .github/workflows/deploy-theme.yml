@@ -1,0 +1,23 @@
+name: Deploy Theme
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        instance:
+          - instance1
+          - instance2
+          # Add more instances as needed
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy Ghost Theme
+        uses: TryGhost/action-deploy-theme@v1
+        with:
+          api-url: ${{ secrets[format('GHOST_ADMIN_API_URL_{0}', matrix.instance)] }}
+          api-key: ${{ secrets[format('GHOST_ADMIN_API_KEY_{0}', matrix.instance)] }}
