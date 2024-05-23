@@ -18,6 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1
+        theme-name: casper-multilingual
         with:
           api-url: ${{ secrets[format('GHOST_ADMIN_API_URL_{0}', matrix.instance)] }}
           api-key: ${{ secrets[format('GHOST_ADMIN_API_KEY_{0}', matrix.instance)] }}
