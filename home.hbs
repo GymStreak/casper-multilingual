@@ -1,7 +1,7 @@
 {{!< default}}
 
 
-
+<!--
 <main id="main">
     <section class="p-outer">
         <div class="p-inner p-hero">
@@ -37,17 +37,17 @@
 
     This query gets the latest 3 posts on the site, but adds a filter to
     exclude the post we're currently on from being included. --}}
-    {{#get "posts" limit="3" as |more_posts|}}
+         {{#get "posts" limit="3" as |more_posts|}}
 
-        {{#if more_posts}}
-            <aside class="read-more-wrap outer">
-                <div class="read-more inner">
-                    {{#foreach more_posts}}
-                        {{> "post-card"}}
-                    {{/foreach}}
-                </div>
-            </aside>
-        {{/if}}
+            {{#if more_posts}}
+                <aside class="read-more-wrap outer">
+                    <div class="read-more inner">
+                        {{#foreach more_posts}}
+                            {{> "post-card"}}
+                        {{/foreach}}
+                    </div>
+                </aside>
+            {{/if}}
 
         {{/get}}
     {{/if}}
@@ -57,7 +57,7 @@
     </section>
 </main>
 
-<!--
+-->
 
 
 <div class="site-header-content outer left-aligned has-cover">
@@ -68,10 +68,10 @@
             <div class="text-block">5</div>
         </div>
   
-        <h1 class="site-title">{{t Herotext}}</h1>
-        <p class="subtext">{{t Subtext}}</p>
-        <button class="hero-button">{{t Buttonios}}</button>
-        <button class="hero-button">{{t Buttonandroid}}</button>
+        <h1 class="site-title">{{t "Herotext"}}</h1>
+        <p class="subtext">{{t "Subtext"}}</p>
+        <button class="hero-button">{{t "Buttonios"}}</button>
+        <button class="hero-button">{{t "Buttonandroid"}}</button>
     </div>
 </div>
 
@@ -82,7 +82,7 @@
 <main id="main" class="main">
     <section class="footer-cta outer">
         <div class="inner">
-           <h2 class="footer-cta-title">{{t Latest Articles}}</h2>
+           <h2 class="footer-cta-title">{{t "Latest Posts"}}</h2>
         </div>
     
             
@@ -93,19 +93,17 @@
 
     This query gets the latest 3 posts on the site, but adds a filter to
     exclude the post we're currently on from being included. --}}
-    {{#get "posts" limit="3" as |more_posts|}}
+        {{#get "posts" limit="3" as |more_posts|}}
 
-        {{#if more_posts}}
-            <aside class="read-more-wrap outer">
-                <div class="read-more inner">
-                    {{#foreach more_posts}}
-                     {{^has tag="appworkouts,appmealplans"}}
-                        {{> "post-card"}}
-                     {{/has}}
-                    {{/foreach}}
-                </div>
-            </aside>
-        {{/if}}
+            {{#if more_posts}}
+                <aside class="read-more-wrap outer">
+                    <div class="read-more inner">
+                        {{#foreach more_posts}}
+                            {{> "post-card"}}
+                        {{/foreach}}
+                    </div>
+                </aside>
+            {{/if}}
 
         {{/get}}
     {{/if}}
@@ -115,7 +113,7 @@
     </section>
 </main>
 
-
+<!--
 
 {{!< default}}
 <div class="site-header-content outer{{#match @custom.header_style "Left aligned"}} left-aligned{{/match}}{{#unless @custom.show_publication_cover}}{{#match @custom.header_style "Hidden"}} no-content{{/match}}{{/unless}}" style="background-color:rgb(92, 99, 185);  overflow:hidden;">
