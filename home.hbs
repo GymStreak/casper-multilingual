@@ -1,6 +1,5 @@
 {{!< default}}
 
-<div class="site-header-content outer{{#match @custom.header_style "Left aligned"}} left-aligned{{/match}}{{#unless @custom.show_publication_cover}}{{#match @custom.header_style "Hidden"}} no-content{{/match}}{{/unless}}" style="background-color:rgb(92, 99, 185);  overflow:hidden;"></div>
 
 
 <main id="main">
@@ -8,17 +7,14 @@
         <div class="p-inner p-hero">
             <div class="p-hero-left">
             <div>
-                <h1>Welcome, Plant Lovers 👋</h1>
-                <p>This is <strong>Carol's Carnivorous Plants</strong>, and, as you may have guessed, I'm Carol.</p>
-                <p>I grow carnivorous plants and <em>live</em>to write about it.</p>
-                <p>I've been growing, breeding, studying, and loving these plants for more than 25 years.</p>
-                <p>Join me at my <a href="https://plantsbycarol.com"> nursery</a> or right here for Venus flytraps, sundews, Sarracenias, and more.</p>
+                <h1>{{t "Herotext"}}</h1>
+                <p>{{t "Subtext"}}</p>
             </div>
             <div class="p-hero-buttons">
                 {{! Launches the Ghost membership portal }}
-                <button data-portal="signup">Subscribe</button>
+                <button data-portal="signup">{{t "Buttonios"}}</button>
                 {{! Link to an about page }}
-                <a href="/about/">Learn more &rarr;</a>
+                <a href="/about/">{{t "Buttonandroid"}}</a>
             </div>
             </div>
             <div class="p-hero-right">
@@ -30,7 +26,7 @@
 
     <section class="footer-cta outer">
         <div class="inner">
-           <h2 class="footer-cta-title">{{t Latest Articles}}</h2>
+           <h2 class="footer-cta-title">{{t "Latest Posts"}}</h2>
         </div>
     
             
@@ -47,9 +43,7 @@
             <aside class="read-more-wrap outer">
                 <div class="read-more inner">
                     {{#foreach more_posts}}
-                     {{^has tag="appworkouts,appmealplans"}}
                         {{> "post-card"}}
-                     {{/has}}
                     {{/foreach}}
                 </div>
             </aside>
