@@ -1,4 +1,67 @@
 {{!< default}}
+
+<main id="main">
+    <section class="p-outer">
+        <div class="p-inner p-hero">
+            <div class="p-hero-left">
+            <div>
+                <h1>Welcome, Plant Lovers 👋</h1>
+                <p>This is <strong>Carol's Carnivorous Plants</strong>, and, as you may have guessed, I'm Carol.</p>
+                <p>I grow carnivorous plants and <em>live</em>to write about it.</p>
+                <p>I've been growing, breeding, studying, and loving these plants for more than 25 years.</p>
+                <p>Join me at my <a href="https://plantsbycarol.com"> nursery</a> or right here for Venus flytraps, sundews, Sarracenias, and more.</p>
+            </div>
+            <div class="p-hero-buttons">
+                {{! Launches the Ghost membership portal }}
+                <button data-portal="signup">Subscribe</button>
+                {{! Link to an about page }}
+                <a href="/about/">Learn more &rarr;</a>
+            </div>
+            </div>
+            <div class="p-hero-right">
+            {{! Loads the your cover image as defined in Ghost admin }}
+            <img src="{{img_url @site.cover_image size="l"}}" alt="Pitcher plants" />
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-cta outer">
+        <div class="inner">
+           <h2 class="footer-cta-title">{{t Latest Articles}}</h2>
+        </div>
+    
+            
+
+    {{#if @custom.show_recent_posts_footer}}
+    {{!-- The {#get} helper below fetches some of the latest posts here
+    so that people have something else to read when they finish this one.
+
+    This query gets the latest 3 posts on the site, but adds a filter to
+    exclude the post we're currently on from being included. --}}
+    {{#get "posts" limit="3" as |more_posts|}}
+
+        {{#if more_posts}}
+            <aside class="read-more-wrap outer">
+                <div class="read-more inner">
+                    {{#foreach more_posts}}
+                     {{^has tag="appworkouts,appmealplans"}}
+                        {{> "post-card"}}
+                     {{/has}}
+                    {{/foreach}}
+                </div>
+            </aside>
+        {{/if}}
+
+        {{/get}}
+    {{/if}}
+
+
+    
+    </section>
+
+<!--
+
+
 <div class="site-header-content outer left-aligned has-cover">
     <div class="site-header-inner">
         <img src="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon.png" loading="lazy" sizes="150px" srcset="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon-p-500.png 500w, https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon-p-800.png 800w, https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon.png 1024w" alt="" class="logo-image">
@@ -54,7 +117,7 @@
     </section>
 </main>
 
-<!--
+
 
 {{!< default}}
 <div class="site-header-content outer{{#match @custom.header_style "Left aligned"}} left-aligned{{/match}}{{#unless @custom.show_publication_cover}}{{#match @custom.header_style "Hidden"}} no-content{{/match}}{{/unless}}" style="background-color:rgb(92, 99, 185);  overflow:hidden;">
