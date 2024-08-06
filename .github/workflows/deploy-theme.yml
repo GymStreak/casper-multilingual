@@ -15,7 +15,14 @@ jobs:
         with:
           node-version: '18.x'
           cache: 'npm'
-      - run: npm ci
+      - run: |
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
       - run: npm run build
   deploy:
     runs-on: ubuntu-latest
