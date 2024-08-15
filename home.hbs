@@ -1,66 +1,9 @@
 {{!< default}}
 
 
-<!--
-<main id="main">
-    <section class="p-outer">
-        <div class="p-inner p-hero">
-            <div class="p-hero-left">
-            <div>
-                <h1>{{t "Herotext"}}</h1>
-                <p>{{t "Subtext"}}</p>
-            </div>
-            <div class="p-hero-buttons">
-                {{! Launches the Ghost membership portal }}
-                <button data-portal="signup">{{t "Buttonios"}}</button>
-                {{! Link to an about page }}
-                <a href="/about/">{{t "Buttonandroid"}}</a>
-            </div>
-            </div>
-            <div class="p-hero-right">
-            {{! Loads the your cover image as defined in Ghost admin }}
-            <img src="{{img_url @site.cover_image size="l"}}" alt="Pitcher plants" />
-            </div>
-        </div>
-    </section>
-
-    <section class="footer-cta outer">
-        <div class="inner">
-           <h2 class="footer-cta-title">{{t "Latest Posts"}}</h2>
-        </div>
-    
-            
-
-    {{#if @custom.show_recent_posts_footer}}
-    {{!-- The {#get} helper below fetches some of the latest posts here
-    so that people have something else to read when they finish this one.
-
-    This query gets the latest 3 posts on the site, but adds a filter to
-    exclude the post we're currently on from being included. --}}
-         {{#get "posts" limit="3" as |more_posts|}}
-
-            {{#if more_posts}}
-                <aside class="read-more-wrap outer">
-                    <div class="read-more inner">
-                        {{#foreach more_posts}}
-                            {{> "post-card"}}
-                        {{/foreach}}
-                    </div>
-                </aside>
-            {{/if}}
-
-        {{/get}}
-    {{/if}}
 
 
-    
-    </section>
-</main>
-
--->
-
-
-<div class="site-header-content outer left-aligned has-cover">
+<div class="site-header-content outer">
     <div class="site-header-inner">
         <img src="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon.png" loading="lazy" sizes="150px" srcset="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon-p-500.png 500w, https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon-p-800.png 800w, https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon.png 1024w" alt="" class="logo-image">
          <div class="logo-text">
@@ -70,16 +13,63 @@
   
         <h1 class="site-title">{{t "Herotext"}}</h1>
         <p class="subtext">{{t "Subtext"}}</p>
-        <button class="hero-button">{{t "Buttonios"}}</button>
-        <button class="hero-button">{{t "Buttonandroid"}}</button>
+        <div class="hero-buttons">
+        <button class="gh-head-button">{{t "Buttonios"}}</button>
+        <button class="gh-head-button">{{t "Buttonandroid"}}</button>
+        </div>
     </div>
 </div>
 
-<div class="site-header-content outer">
-    <img class="site-header-cover" src="iphone-photo.jpg" alt="iPhone Photo">
-</div>
+
 
 <main id="main" class="main">
+    <section>
+        <div class="hero-iphone-container">
+    <div class="hero-iphone-holder">
+     <!-- iPhone 1 -->
+    <div class="iphone-holder _02">
+        <img src="{{asset 'images/black_iphone.png'}}" alt="iPhone Image" class="iphone-image">
+        <div class="iphone-screen-container">
+            <img src="{{asset 'images/1.png'}}" alt="iPhone Screen Image" class="iphone-screen-image">
+        </div>
+    </div>
+
+    <!-- iPhone 2 -->
+    <div class="iphone-holder _03">
+        <img src="{{asset 'images/blue_iphone.png'}}" alt="iPhone Image" class="iphone-image">
+        <div class="iphone-screen-container">
+            <img src="{{asset 'images/2.png'}}" alt="iPhone Screen Image" class="iphone-screen-image">
+        </div>
+    </div>
+
+    <!-- iPhone 3 -->
+    <div class="iphone-holder _04">
+        <img src="{{asset 'images/black_iphone.png'}}" alt="iPhone Image" class="iphone-image">
+        <div class="iphone-screen-container">
+            <img src="{{asset 'images/3.png'}}" alt="iPhone Screen Image" class="iphone-screen-image">
+        </div>
+    </div>
+
+    <!-- iPhone 4 -->
+    <div class="iphone-holder _05">
+        <img src="{{asset 'images/blue_iphone.png'}}" alt="iPhone Image" class="iphone-image">
+        <div class="iphone-screen-container">
+            <img src="{{asset 'images/4.png'}}" alt="iPhone Screen Image" class="iphone-screen-image">
+        </div>
+    </div>
+
+    <!-- iPhone 5 -->
+    <div class="iphone-holder _06">
+        <img src="{{asset 'images/black_iphone.png'}}" alt="iPhone Image" class="iphone-image">
+        <div class="iphone-screen-container">
+            <img src="{{asset 'images/5.png'}}" alt="iPhone Screen Image" class="iphone-screen-image">
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="footer-cta outer">
         <div class="inner">
            <h2 class="footer-cta-title">{{t "Latest Posts"}}</h2>
