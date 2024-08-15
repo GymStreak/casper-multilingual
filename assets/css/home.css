@@ -9,6 +9,7 @@
 }
 
 
+
 .subtext {
   color: var(--color-secondary-text);
   font-size: 2rem;
@@ -65,10 +66,21 @@
     font-size: 5rem
 
 }
-
-   .has-cover .gh-head-button {
+.hero-buttons {
+  padding-top: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 10vh;
+}
+   .hero-buttons .gh-head-button {
     color: #fff;
     background-color: var(--ghost-accent-color);
+    min-width: 200px;
+    max-width: 250px;
+
   }
   
   .site-header-inner{
