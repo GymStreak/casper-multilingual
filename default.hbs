@@ -114,6 +114,24 @@ $(document).ready(function () {
     $(".gh-content").fitVids();
 });
 </script>
+<script>
+    $(document).addEventListener('DOMContentLoaded', function() {
+    const iphones = document.querySelectorAll('.iphone-holder');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    iphones.forEach(iphone => {
+        observer.observe(iphone);
+    });
+});
+</script>
 
 {{!-- Ghost outputs required functional scripts with this tag - it should always be the last thing before the closing body tag --}}
 {{ghost_foot}}

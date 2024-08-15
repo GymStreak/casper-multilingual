@@ -46,11 +46,6 @@
     height: auto; /* Adjust this as needed */
 }
 
-.logo-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .image {
     width: 35vh; /* Adjust the size of the image as needed */
@@ -105,11 +100,7 @@
     flex-direction: row;
     align-items: center;
     }
-    .text-block {
-      color: var(--ghost-accent-color);
-      font-weight:700;
-      font-size: 3rem
-  }
+   
   
 
    
@@ -122,6 +113,7 @@
      overflow: hidden;
    }
    
+
    .iphone-container {
      width: 100%;
    }
@@ -148,7 +140,14 @@
    .iphone-holder {
      width: 100%;
      position: relative;
-   }
+     transform: translateY(100px);
+     transition: transform 0.5s ease-out;
+  }
+  
+  .iphone-holder.in-view {
+      transform: translateY(0);
+  }
+  
    
    .iphone-screen-container {
      z-index: 2;
