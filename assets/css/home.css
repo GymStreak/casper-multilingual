@@ -17,6 +17,7 @@
     min-height: 560px;
     background-color: #141414;
     color: #fff;
+    justify-content: center;
 }
 .home-template .site-title {
   font-size: 5rem;
@@ -67,7 +68,7 @@
 
    .has-cover .gh-head-button {
     color: #fff;
-    background-color: var(--color-darkgrey);
+    background-color: var(--ghost-accent-color);
   }
   
   .site-header-inner{
