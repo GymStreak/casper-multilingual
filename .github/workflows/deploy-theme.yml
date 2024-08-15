@@ -22,7 +22,7 @@ jobs:
           else
           npm i
           fi
-          npm run build
+          npm run zip
   deploy:
     runs-on: ubuntu-latest
     strategy:
