@@ -115,20 +115,13 @@ $(document).ready(function () {
 });
 </script>
 <script>
-    $(document).addEventListener('DOMContentLoaded', function() {
-    const iphones = document.querySelectorAll('.iphone-holder');
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('in-view');
-            }
-        });
-    }, {
-        threshold: 0.1
-    });
+   $(document).addEventListener('scroll', function () {
+    const scrollPosition = window.scrollY;
+    const iphoneHolders = document.querySelectorAll('.iphone-holder');
 
-    iphones.forEach(iphone => {
-        observer.observe(iphone);
+    iphoneHolders.forEach(function(holder, index) {
+        const offset = -(scrollPosition * 0.5); // Adjust the multiplier to control the speed of the effect
+        holder.style.transform = `translateY(${offset}px)`;
     });
 });
 </script>

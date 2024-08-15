@@ -138,16 +138,9 @@
    }
    
    .iphone-holder {
-     width: 100%;
-     position: relative;
-     transform: translateY(100px);
-     transition: transform 0.5s ease-out;
-  }
-  
-  .iphone-holder.in-view {
-      transform: translateY(0);
-  }
-  
+    will-change: transform;
+    transition: transform 0.1s ease-out;
+}
    
    .iphone-screen-container {
      z-index: 2;
