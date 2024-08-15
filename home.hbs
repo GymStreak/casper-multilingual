@@ -5,11 +5,16 @@
 
 <div class="site-header-content outer">
     <div class="site-header-inner">
-        <img src="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon.png" loading="lazy" sizes="150px" srcset="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon-p-500.png 500w, https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon-p-800.png 800w, https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b70ddd494a43fb29afbd_icon.png 1024w" alt="" class="logo-image">
-         <div class="logo-text">
-            <img src="https://assets-global.website-files.com/6580b4dfc72ed709859acd4f/6580b6bcd0dee1f503a1b8e0_gymstreaklogo.svg" loading="lazy" alt="" class="image">
+        <div class="hero-logo-container">
+        <img src="{{assets "images/logo.png"}}" loading="lazy" class="hero-logo">
+    </div>
+       
+        <div class="logo-text-container">
+            <div class="logo-text">
+            <img src="{{@site.logo}}" loading="lazy" alt="" class="image">
             <div class="text-block">5</div>
         </div>
+</div>
   
         <h1 class="site-title">{{t "Herotext"}}</h1>
         <p class="subtext">{{t "Subtext"}}</p>

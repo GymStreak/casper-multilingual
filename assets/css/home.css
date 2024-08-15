@@ -4,7 +4,68 @@
     background-color:#141414;
   }
   
-  .home-template .has-cover .gh-head-button {
+.home-template .site-title {
+  font-size: 5rem;
+}
+
+
+.subtext {
+  color: var(--color-secondary-text);
+  font-size: 2rem;
+}
+.home-template .site-header-content {
+    min-height: 560px;
+    background-color: #141414;
+    color: #fff;
+}
+.home-template .site-title {
+  font-size: 5rem;
+}
+.hero-logo-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.hero-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  overflow: hidden;
+  box-shadow: -6px 6px 12px rgba(0, 0, 0, .24);
+}
+
+
+.logo-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust this as needed */
+    height: auto; /* Adjust this as needed */
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 35vh; /* Adjust the size of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-block {
+    margin-bottom: 10px; /* Adjust spacing between image and text */
+    display: flex;
+    align-items: center;
+    color: var(--ghost-accent-color);
+    font-weight:700;
+    font-size: 5rem
+
+}
+
+   .has-cover .gh-head-button {
     color: #fff;
     background-color: var(--color-darkgrey);
   }
@@ -17,7 +78,27 @@
     flex-wrap:nowrap;
     justify-content:normal;
     align-items:center;
+    gap:30px;
+    max-width: 80%;
    }
+
+   .logo-text-container {
+    min-width: 40%;
+   }
+
+   .logo-text {
+    display: inline-flex;
+    height: 10vh;
+    flex-direction: row;
+    align-items: center;
+    }
+    .text-block {
+      color: var(--ghost-accent-color);
+      font-weight:700;
+      font-size: 3rem
+  }
+  
+
    
    .hero-iphone-container {
      width: 100%;
