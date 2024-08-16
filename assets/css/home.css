@@ -43,7 +43,7 @@
     justify-content: center;
 }
 .home-template .site-title {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 .hero-logo-container {
   flex-direction: column;
@@ -90,13 +90,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 10vh;
+  height: 5vh;
+  max-width: 60%;
 }
    .hero-buttons .gh-head-button {
     color: #fff;
     background-color: var(--ghost-accent-color);
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 220px;
+    max-width: 260px;
 
   }
   
@@ -214,14 +215,7 @@
      align-items: center;
      display: grid;
    }
-   @media (min-width:992px){
-   
-    /* Outer */
-    .viewport .site-content .outer{
-     padding-top:226px;
-    }
-    
-   }
+  
    
    @media screen and (min-width: 1440px) {
      .container {
@@ -265,52 +259,9 @@
    
    }
    
-   @media screen and (max-width: 767px) {
-     h1 {
-       font-size: 40px;
-     }
-   
-     h2 {
-       font-size: 42px;
-     }
-   
-     h3 {
-       font-size: 32px;
-     }
-   
-     h4 {
-       font-size: 30px;
-     }
-   
-     p {
-       font-size: 16px;
-     }
-   
-     .hero-section {
-       height: auto;
-     }
-   
-   
-     .iphone-container.cta {
-       left: -6px;
-     }
-   
-   }
-   
-   @media screen and (max-width: 479px) {
-     h1 {
-       font-size: 34px;
-     }
-   
-     h2 {
-       font-size: 40px;
-     }
-   
-   
-     .iphone-container.cta {
-       top: 0;
-       left: 0;
-     }
-       
-       
-   }
+ @media screen and (max-width: 767px) {
+  .home-tempalte .site-title{
+    font-size: 4.4rem !important
+  }
+  
+ }
