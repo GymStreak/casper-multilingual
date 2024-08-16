@@ -8,13 +8,20 @@
   font-size: 5rem;
 }
 
-.gh-head-inner {
+.home-template .gh-head-inner {
   grid-template-columns: repeat(3, 1fr);
   column-gap:10px;
+
 }
 
-.gh-head-actions {
+.home-template .gh-head-menu {
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.home-tempalte .gh-head-actions {
   justify-content: left;
+  margin-left: -40px;
 }
 
 .home-template .gh-announcement-bar {
