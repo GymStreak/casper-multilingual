@@ -17,6 +17,8 @@
 .home-template .gh-head-menu {
   margin-top: 0px;
   justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .home-tempalte .gh-head-actions {
@@ -236,7 +238,7 @@
      }
    }
    
-   @media screen and (max-width: 991px) {
+   @media screen and (max-width: 992px) {
     
      .hero-iphone-container {
        padding-top: 40px;
@@ -256,7 +258,10 @@
        width: 170%;
      }
    
-   
+     .home-template .gh-head-menu {
+      margin-left: 0px;
+      margin-right: 0px;
+     }
    }
    
  @media screen and (max-width: 767px) {
