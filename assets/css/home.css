@@ -8,7 +8,14 @@
   font-size: 5rem;
 }
 
+.gh-head-inner {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap:10px;
+}
 
+.gh-head-actions {
+  justify-content: left;
+}
 
 .home-template .gh-announcement-bar {
   display: none;
