@@ -196,15 +196,7 @@
      right: 0%;
    }
    
-   .harsh-shadow {
-     width: 160%;
-     height: 115%;
-     max-width: none;
-     position: relative;
-     top: 7%;
-     left: 36%;
-   }
-   
+  
    .hero-iphone-holder {
      width: 120%;
      grid-column-gap: 50px;
