@@ -200,7 +200,7 @@
    .hero-iphone-holder {
      width: 120%;
      grid-column-gap: 50px;
-     grid-row-gap: 16px;
+     grid-row-gap: 15px;
      flex: none;
      grid-template-rows: auto;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
