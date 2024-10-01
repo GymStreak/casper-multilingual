@@ -31,6 +31,6 @@
     "< 1 min read": "< 1 min de lectura",
     "Herotext": "Un planificador de entrenamiento inteligente con seguimiento de nutrición",
     "Subtext": "El algoritmo de entrenamiento avanzado de GymStreak te guía a través de la combinación perfecta de series, repeticiones y pesos para alcanzar tus objetivos de fitness.",
-    "Download iOS Link": "<button class='gh-head-button'> <a href='https://gmstrk.app/home_es'>Descargar iOS</a> </button>",
-    "Download Android Link":"<button class='gh-head-button'>< <a href='https://gmstrk.app/home_es'>Descargar Android </a></button>"
+    "Download iOS Link": "<a href='https://gmstrk.app/home_es' class='gh-head-button'><button>Descargar iOS</button></a>",
+  "Download Android Link": "<a href='https://gmstrk.app/home_es' class='gh-head-button'><button>Descargar Android</button></a>"
 }
