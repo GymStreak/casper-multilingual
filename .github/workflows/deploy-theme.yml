@@ -33,6 +33,9 @@ jobs:
         instance:
           - instance1
           - instance2
+          - instance3
+          - instance4
+          - instance5
           # Add more instances as needed
     steps:
       - uses: actions/checkout@v4
