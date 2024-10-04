@@ -30,6 +30,12 @@
     "% min read": "% λεπτά ανάγνωσης",
     "Herotext": "Ένας έξυπνος προγραμματιστής προπόνησης με παρακολούθηση διατροφής",
     "Subtext": "Ο προηγμένος αλγόριθμος προπόνησης του GymStreak σας καθοδηγεί στον τέλειο συνδυασμό σετ, επαναλήψεων και βάρους για να επιτύχετε τους στόχους σας στη φυσική κατάσταση.",
-    "Buttonios": "Κατεβάστε το iOS",
-    "Buttonandroid": "Κατεβάστε το Android"
+    "Download iOS Link": "<a href='https://gmstrk.app/home_el' class='gh-head-button'><button style='background:none'>iOS herunterladen</button></a>",
+    "Download Android Link": "<a href='https://gmstrk.app/home_el' class='gh-head-button'><button style='background:none'>Android herunterladen</button></a>",
+        "Sign up for more like this.": "Εγγραφείτε για περισσότερα όπως αυτό.",
+        "Home": "Αρχική",
+        "Blog": "Ιστολόγιο",
+        "Help Center": "Κέντρο Βοήθειας",
+        "Contact Us": "Επικοινωνήστε μαζί μας"
+    
 }

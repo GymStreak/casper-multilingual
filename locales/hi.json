@@ -30,8 +30,10 @@
     "% min read": "% मिनट का पढ़ाई",
     "Herotext": "एक बुद्धिमान वर्कआउट प्लानर और पोषण ट्रैकिंग",
     "Subtext": "GymStreak का उन्नत प्रशिक्षण एल्गोरिदम आपको आपके फिटनेस लक्ष्य तक पहुँचने के लिए सही सेट, रेप्स, और वजन संयोजन का मार्गदर्शन करता है।",
-    "Buttonios": "iOS डाउनलोड करें",
-    "Buttonandroid": "Android डाउनलोड करें",
+      
+    "Download iOS Link": "<a href='https://gmstrk.app/home_hi' class='gh-head-button'><button style='background:none'>iOS डाउनलोड करें</button></a>",
+    "Download Android Link": "<a href='https://gmstrk.app/home_hi' class='gh-head-button'><button style='background:none'>Android डाउनलोड करें</button></a>",
+  
         "Sign up for more like this.": "इस तरह के और अधिक के लिए साइन अप करें।",
         "Home": "घर",
         "Blog": "ब्लॉग",

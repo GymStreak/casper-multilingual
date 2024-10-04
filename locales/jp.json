@@ -30,6 +30,13 @@
     "% min read": "%分で読む",
     "Herotext": "インテリジェントなワークアウトプランナーと栄養追跡",
     "Subtext": "GymStreakの高度なトレーニングアルゴリズムが、あなたのフィットネス目標を達成するための最適なセット、レップ、重量の組み合わせを導きます。",
-    "Buttonios": "iOSをダウンロード",
-    "Buttonandroid": "Androidをダウンロード"
+    "Download iOS Link": "<a href='https://gmstrk.app/home_jp' class='gh-head-button'><button style='background:none'>iOSをダウンロード</button></a>",
+    "Download Android Link": "<a href='https://gmstrk.app/home_jp' class='gh-head-button'><button style='background:none'>Androidをダウンロード</button></a>",
+  
+        "Sign up for more like this.": "このようなものをもっと受け取るためにサインアップしてください。",
+        "Home": "ホーム",
+        "Blog": "ブログ",
+        "Help Center": "ヘルプセンター",
+        "Contact Us": "お問い合わせ"
+    
 }

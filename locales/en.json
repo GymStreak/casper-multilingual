@@ -30,7 +30,11 @@
     "% min read": "% min read",
     "Herotext":"An Intelligent workout planner with nutrition tracking",
     "Subtext": "GymStreak's advanced training algorithm guides you through the perfect set, rep, and weight combination to reach your fitness goals.",
-   "Download iOS Link": "<a href='https://apps.apple.com/app/apple-store/id1371187280?pt=119015917&ct=Blog%2Homepage0&mt=8' class='gh-head-button'><button style='background:none'>Download iOS</button></a>",
-  "Download Android Link": "<a href='https://play.google.com/store/apps/details?id=com.gymstreak.GymStreakAI%26&referrer=utm_source%3Dblog%26utm_medium%3Dhomebutton%26utm_term%3Dhomepage%26utm_campaign%3DAppBlog' class='gh-head-button'><button style='background:none'>Download Android</button></a>"
-
+    "Download iOS Link": "<a href='https://apps.apple.com/app/apple-store/id1371187280?pt=119015917&ct=Blog%2Homepage0&mt=8' class='gh-head-button'><button style='background:none'>Download iOS</button></a>",
+    "Download Android Link": "<a href='https://play.google.com/store/apps/details?id=com.gymstreak.GymStreakAI%26&referrer=utm_source%3Dblog%26utm_medium%3Dhomebutton%26utm_term%3Dhomepage%26utm_campaign%3DAppBlog' class='gh-head-button'><button style='background:none'>Download Android</button></a>",
+    "Sign up for more like this.":"Sign up for more like this.",
+    "Home":"Home",
+    "Blog":"Blog",
+    "Help Center":"Help Center",
+    "Contact Us":"Contact Us"
 }   
