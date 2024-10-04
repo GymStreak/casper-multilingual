@@ -32,7 +32,12 @@
     "Herotext": "Ein intelligenter Trainingsplaner mit Ernährungsverfolgung",
     "Subtext": "GymStreaks fortschrittlicher Trainingsalgorithmus führt dich durch die perfekte Kombination von Sätzen, Wiederholungen und Gewichten, um deine Fitnessziele zu erreichen.",
     "Download iOS Link": "<a href='https://gmstrk.app/home_de' class='gh-head-button'><button style='background:none'>iOS herunterladen</button></a>",
-    "Download Android Link": "<a href='https://gmstrk.app/home_de' class='gh-head-button'><button style='background:none'>Android herunterladen</button></a>"
+    "Download Android Link": "<a href='https://gmstrk.app/home_de' class='gh-head-button'><button style='background:none'>Android herunterladen</button></a>",
+        "Sign up for more like this.": "Melden Sie sich für mehr davon an.",
+        "Home": "Startseite",
+        "Blog": "Blog",
+        "Help Center": "Hilfezentrum",
+        "Contact Us": "Kontaktieren Sie uns"
+    }
     
-}
-      
+    

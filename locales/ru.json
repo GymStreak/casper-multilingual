@@ -30,6 +30,13 @@
     "% min read": "% мин чтения",
     "Herotext": "Интеллектуальный планировщик тренировок с отслеживанием питания",
     "Subtext": "Продвинутая тренировочная алгоритм GymStreak направляет вас через идеальную комбинацию подходов, повторений и веса для достижения ваших фитнес-целей.",
-    "Buttonios": "Скачать для iOS",
-    "Buttonandroid": "Скачать для Android"
+    "Download iOS Link": "<a href='https://gmstrk.app/home_ru' class='gh-head-button'><button style='background:none'>iOS herunterladen</button></a>",
+    "Download Android Link": "<a href='https://gmstrk.app/home_ru' class='gh-head-button'><button style='background:none'>Android herunterladen</button></a>",
+  
+    "Sign up for more like this.": "Подпишитесь на большее, подобное этому.",
+    "Home": "Главная",
+    "Blog": "Блог",
+    "Help Center": "Центр помощи",
+    "Contact Us": "Свяжитесь с нами"
+    
 }

@@ -30,6 +30,12 @@
     "% min read": "% நிமிடம் படிக்க",
     "Herotext": "ஒரு அறிவார்ந்த உடற்பயிற்சி திட்டக்கார் மற்றும் ஊட்டச்சத்து கண்காணிப்பு",
     "Subtext": "GymStreak இன் மேம்பட்ட பயிற்சிப் பதிப்பு உங்களை உங்கள் உடற்தகுதி இலக்குகளை அடைய சரியான செட், ரெப் மற்றும் எடையின் இணைப்பை வழிநடத்துகிறது.",
-    "Buttonios": "iOS ஐப் பதிவிறக்கவும்",
-    "Buttonandroid": "Android ஐப் பதிவிறக்கவும்"
+    "Download iOS Link": "<a href='https://gmstrk.app/home_ta' class='gh-head-button'><button style='background:none'>iOS herunterladen</button></a>",
+    "Download Android Link": "<a href='https://gmstrk.app/home_ta' class='gh-head-button'><button style='background:none'>Android herunterladen</button></a>",
+  
+    "Sign up for more like this.": "இதுபோன்ற மேலும் பதிவு செய்யவும்.",
+    "Home": "முகப்பு",
+    "Blog": "பிளாக்கு",
+    "Help Center": "உதவி மையம்",
+    "Contact Us": "எங்களை தொடர்பு கொள்ளவும்"
 }
