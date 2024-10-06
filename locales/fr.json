@@ -28,14 +28,17 @@
     "% posts": "% articles",
     "1 min read": "1 min de lecture",
     "% min read": "% min de lecture",
-    "Herotext": "Un planificateur d'entraînement intelligent avec suivi de la nutrition",
-    "Subtext": "L'algorithme d'entraînement avancé de GymStreak vous guide à travers la combinaison parfaite de séries, de répétitions et de poids pour atteindre vos objectifs de fitness.",
+    "Herotext": "Un planificateur d'entraînement intelligent avec suivi nutritionnel",
+    "Subtext": "L'algorithme d'entraînement avancé de GymStreak vous guide à travers la combinaison parfaite d'exercices, de répétitions et de poids pour atteindre vos objectifs de fitness.",
     "Download iOS Link": "<a href='https://gmstrk.app/home_fr' class='gh-head-button'><button style='background:none'>Télécharger pour iOS</button></a>",
     "Download Android Link":"<a href='https://gmstrk.app/home_fr' class='gh-head-button'><button style='background:none'>Télécharger pour Android</button></a>",
         "Sign up for more like this.": "Inscrivez-vous pour plus comme ceci.",
         "Home": "Accueil",
         "Blog": "Blog",
         "Help Center": "Centre d'Aide",
-        "Contact Us": "Contactez-nous"
+        "Contact Us": "Contactez-nous",
+        "Privacy Policy": "Politique de Confidentialité",
+        "Terms And Conditions": "Conditions Générales"
     }
+    
     

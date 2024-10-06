@@ -28,8 +28,8 @@
     "% posts": "% записей",
     "1 min read": "1 мин чтения",
     "% min read": "% мин чтения",
-    "Herotext": "Интеллектуальный планировщик тренировок с отслеживанием питания",
-    "Subtext": "Продвинутая тренировочная алгоритм GymStreak направляет вас через идеальную комбинацию подходов, повторений и веса для достижения ваших фитнес-целей.",
+    "Herotext": "Интеллектуальный планировщик тренировок с отслеживанием питания", 
+    "Subtext": "Усовершенствованный алгоритм тренировок GymStreak поможет вам подобрать идеальное сочетание сетов, повторений и веса для достижения ваших фитнес-целей.", 
     "Download iOS Link": "<a href='https://gmstrk.app/home_ru' class='gh-head-button'><button style='background:none'>Скачать для iOS</button></a>",
     "Download Android Link": "<a href='https://gmstrk.app/home_ru' class='gh-head-button'><button style='background:none'>Скачать для Android</button></a>",
   
@@ -37,6 +37,8 @@
     "Home": "Главная",
     "Blog": "Блог",
     "Help Center": "Центр помощи",
-    "Contact Us": "Свяжитесь с нами"
+    "Contact Us": "Контакты",
+    "Privacy Policy": "Политика конфиденциальности",
+    "Terms And Conditions": "Условия и положения"
     
 }

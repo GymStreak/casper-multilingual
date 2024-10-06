@@ -29,15 +29,17 @@
     "1 min read": "1 Min. Lesezeit",
     "% min read": "% Min. Lesezeit",
     "< 1 min read": "< 1 Min. Lesezeit",
-    "Herotext": "Ein intelligenter Trainingsplaner mit Ernährungsverfolgung",
-    "Subtext": "GymStreaks fortschrittlicher Trainingsalgorithmus führt dich durch die perfekte Kombination von Sätzen, Wiederholungen und Gewichten, um deine Fitnessziele zu erreichen.",
+    "Herotext": "Een intelligente trainingsplanner met voedingstracking",
+    "Subtext": "Het geavanceerde trainingsalgoritme van GymStreak leidt je door de perfecte set, rep en gewichtscombinatie om je fitnessdoelen te bereiken.", 
     "Download iOS Link": "<a href='https://gmstrk.app/home_de' class='gh-head-button'><button style='background:none'>iOS herunterladen</button></a>",
     "Download Android Link": "<a href='https://gmstrk.app/home_de' class='gh-head-button'><button style='background:none'>Android herunterladen</button></a>",
         "Sign up for more like this.": "Melden Sie sich für mehr davon an.",
         "Home": "Startseite",
         "Blog": "Blog",
         "Help Center": "Hilfezentrum",
-        "Contact Us": "Kontaktieren Sie uns"
+        "Contact Us": "Kontaktieren Sie uns",
+        "Privacy Policy": "Datenschutzrichtlinie",
+        "Terms And Conditions": "Allgemeine Geschäftsbedingungen"
     }
     
     
