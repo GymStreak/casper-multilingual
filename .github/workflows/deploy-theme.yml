@@ -31,11 +31,16 @@ jobs:
     strategy:
       matrix:
         instance:
-          - instance1
-          - instance2
-          - instance3
-          - instance4
-          - instance5
+          - instance1 # spanish
+          - instance2 # french
+          - instance3 # german
+          - instance4 # russian
+          - instance5 # portuguese
+          - instance6 # japanese
+          - instance7 # dutch
+          #- instance8 # 
+          #- instance9 #
+          #- instance10 #
           # Add more instances as needed
     steps:
       - uses: actions/checkout@v4
