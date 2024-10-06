@@ -50,3 +50,4 @@ jobs:
           api-url: ${{ secrets[format('GHOST_ADMIN_API_URL_{0}', matrix.instance)] }}
           api-key: ${{ secrets[format('GHOST_ADMIN_API_KEY_{0}', matrix.instance)] }}
           theme-name: casper-multilingual
+        continue-on-error: true
