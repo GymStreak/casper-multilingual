@@ -30,13 +30,14 @@
     "% min read": "%分で読む",
     "Herotext" :"栄養追跡機能を備えたインテリジェントなワークアウトプランナー",
     "Subtext":" 「GymStreakの高度なトレーニングアルゴリズムは、あなたのフィットネスゴールに到達するための完璧なセット、レップ、および重量の組み合わせをガイドします", 
-     "Download iOS Link": "<a href='https://gmstrk.app/home_jp' class='gh-head-button'><button style='background:none'>iOSをダウンロード</button></a>",
+    "Download iOS Link": "<a href='https://gmstrk.app/home_jp' class='gh-head-button'><button style='background:none'>iOSをダウンロード</button></a>",
     "Download Android Link": "<a href='https://gmstrk.app/home_jp' class='gh-head-button'><button style='background:none'>Androidをダウンロード</button></a>",
-  
-        "Sign up for more like this.": "このようなものをもっと受け取るためにサインアップしてください。",
-        "Home": "ホーム",
-        "Blog": "ブログ",
-        "Help Center": "ヘルプセンター",
-        "Contact Us": "お問い合わせ"
-    
+    "Sign up for more like this.": "このようなものをもっと受け取るためにサインアップしてください。",
+    "Home": "ホーム",
+    "Blog": "ブログ",
+    "Help Center": "ヘルプセンター",
+    "Contact Us": "お問い合わせ",
+    "Privacy Policy": "プライバシーポリシー",
+    "Terms And Conditions": "利用規約"
+
 }
