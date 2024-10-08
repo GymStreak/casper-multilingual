@@ -37,7 +37,7 @@ into the {body} tag of the default.hbs template --}}
                 <li class="author-list-item">
                     {{#if profile_image}}
                     <a href="{{url}}" class="author-avatar" aria-label="{{t "Read more of {name}" name=name}}">
-                        <img class="author-profile-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" />
+                        <img class="author-profile-image" src="https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com{{img_url profile_image size="xs"}}" alt="{{name}}" />
                     </a>
                     {{else}}
                     <a href="{{url}}" class="author-avatar author-profile-image" aria-label="{{t "Read more of {name}" name=name}}">{{> "icons/avatar"}}</a>
@@ -65,12 +65,12 @@ into the {body} tag of the default.hbs template --}}
                 {{!-- This is a responsive image, it loads different sizes depending on device
                 https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
                 <img
-                    srcset="{{img_url feature_image size="s"}} 300w,
-                            {{img_url feature_image size="m"}} 600w,
-                            {{img_url feature_image size="l"}} 1000w,
-                            {{img_url feature_image size="xl"}} 2000w"
+                    srcset="https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com{{img_url feature_image size="s"}} 300w,
+                            https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com{{img_url feature_image size="m"}} 600w,
+                            https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com{{img_url feature_image size="l"}} 1000w,
+                            https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com{{img_url feature_image size="xl"}} 2000w"
                     sizes="(min-width: 1400px) 1400px, 92vw"
-                    src="{{img_url feature_image size="xl"}}"
+                    src="https://res.cloudinary.com/gymstreak/image/fetch/c_fit,q_auto,f_auto,dpr_auto/https://blog.gymstreak.com{{img_url feature_image size="xl"}}"
                     alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}"
                 />
                 {{#if feature_image_caption}}
