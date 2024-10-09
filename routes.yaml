@@ -1,9 +1,8 @@
 routes:
   /: home
-  /sitemap/:
+  /google-news/:
     template: sitemap
     content_type: text/xml
-
 collections:
   /blog/:
     permalink: /blog/{slug}/
