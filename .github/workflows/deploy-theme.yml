@@ -38,6 +38,7 @@ jobs:
           - instance5 # portuguese
           - instance6 # japanese
           - instance7 # dutch
+          - instance8 # English
           #- instance8 # 
           #- instance9 #
           #- instance10 #
