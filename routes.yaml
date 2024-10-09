@@ -1,5 +1,8 @@
 routes:
   /: home
+  /sitemap/:
+    template: sitemap
+    content_type: text/xml
 
 collections:
   /blog/:
