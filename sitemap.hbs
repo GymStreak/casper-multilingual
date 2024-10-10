@@ -18,7 +18,7 @@
             {{#has visibility="paid"}}
             <news:access>Subscription</news:access>
             {{/has}}
-            <news:publication_date>{{date published_at format="YYYY-MM-DDTHH:mm:ssZ"}}</news:publication_date>
+            <news:publication_date>{{date published_at format="YYYY-MM-DDTHH:mm:ssZ" locale="en"}}</news:publication_date>
             <news:title>{{title}}</news:title>
             <news:keywords>{{tags limit="5" autolink="false"}}</news:keywords>
           </news:news>
