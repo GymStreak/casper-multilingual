@@ -39,7 +39,7 @@ jobs:
           - instance6 # japanese
           - instance7 # dutch
           - instance8 # English
-          #- instance8 # 
+          - instance9 # Hindi
           #- instance9 #
           #- instance10 #
           # Add more instances as needed
