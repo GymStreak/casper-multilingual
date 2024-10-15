@@ -123,10 +123,25 @@ $(document).ready(function () {
     const iphoneHolders = document.querySelectorAll('.iphone-holder');
 
     iphoneHolders.forEach(function(holder, index) {
-        const offset = -(scrollPosition * 0.5); // Adjust the multiplier to control the speed of the effect
+        const offset = -(scrollPosition * 0.1); // Adjust the multiplier to control the speed of the effect
         holder.style.transform = `translateY(${offset}px)`;
     });
 });
+</script>
+<script>
+    document.getElementById('language-modal-trigger').onclick = function() {
+        document.getElementById('language-modal').style.display = 'block';
+    }
+
+    document.getElementById('close-modal').onclick = function() {
+        document.getElementById('language-modal').style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+        if (event.target == document.getElementById('language-modal')) {
+            document.getElementById('language-modal').style.display = 'none';
+        }
+    }
 </script>
 
 {{!-- Ghost outputs required functional scripts with this tag - it should always be the last thing before the closing body tag --}}
