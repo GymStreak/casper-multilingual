@@ -223,44 +223,47 @@
    }
 
 
-   .language-selector {
-    position: relative;
-    display: inline-block;
+   .language-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
 }
 
-.language-button {
-    background: none;
-    border: none;
+.modal-content {
+    
+    margin: 25% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
     cursor: pointer;
-    font-size: 1.5em; /* Adjust size as needed */
 }
 
-.language-dropdown {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+.list-modal{
+  text-align: center;
+  list-style-type: none;
+  padding-top: 50px;
 }
 
-.language-dropdown ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
-.language-dropdown li {
-    padding: 8px 12px;
-}
-
-.language-dropdown li:hover {
-    background-color: #f1f1f1;
-}
-
-.language-selector:hover .language-dropdown {
-    display: block;
-}
   
    
    @media screen and (min-width: 1440px) {
@@ -282,39 +285,7 @@
      }
    }
    
-   .language-modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-.close-button {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close-button:hover,
-.close-button:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
+   
 
    @media screen and (max-width: 992px) {
     
