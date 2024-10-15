@@ -129,19 +129,24 @@ $(document).ready(function () {
 });
 </script>-->
 <script>
-    document.getElementById('language-modal-trigger').onclick = function() {
-        document.getElementById('language-modal').style.display = 'flex';
-    }
+$(document).ready(function () {
+    // Language Modal Trigger
+    $('#language-modal-trigger').click(function () {
+        $('#language-modal').css('display', 'flex');
+    });
 
-    document.getElementById('close-modal').onclick = function() {
-        document.getElementById('language-modal').style.display = 'none';
-    }
+    // Close Modal
+    $('#close-modal').click(function () {
+        $('#language-modal').css('display', 'none');
+    });
 
-    window.onclick = function(event) {
-        if (event.target == document.getElementById('language-modal')) {
-            document.getElementById('language-modal').style.display = 'none';
+    // Close Modal when clicking outside the modal
+    $(window).click(function (event) {
+        if ($(event.target).is('#language-modal')) {
+            $('#language-modal').css('display', 'none');
         }
-    }
+    });
+});
 </script>
 
 {{!-- Ghost outputs required functional scripts with this tag - it should always be the last thing before the closing body tag --}}
