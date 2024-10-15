@@ -42,26 +42,7 @@
             </div>
             
             <nav class="gh-head-menu">
-                <div class="language-selector">
-                    <button class="language-button">
-                        {{#if @site.locale}}
-                            {{#if (eq @site.locale "en")}} 🇬🇧 {{/if}}
-                            {{#if (eq @site.locale "es")}} 🇪🇸 {{/if}}
-                            {{#if (eq @site.locale "ta")}} 🇮🇳 {{/if}}
-                            {{#if (eq @site.locale "pt")}} 🇧🇷 {{/if}}
-                            {{#if (eq @site.locale "nl")}} 🇳🇱 {{/if}}
-                        {{/if}}
-                    </button>
-                <div class="language-dropdown">
-                    <ul>
-                        <li><a href="https://gymstreak.com">🇬🇧 English</a></li>
-                        <li><a href="https://nl.gymstreak.com">🇳🇱 Nederlands</a></li>
-                        <li><a href="https://pt.gymstreak.com">🇧🇷 Português</a></li>
-                        <li><a href="https://es.gymstreak.com">🇪🇸 Español</a></li>
-                        <!-- Add more languages as needed -->
-                    </ul>
-                </div>
-            </div>
+                {{> "language-selector"}}
                 {{navigation}}
                 {{#unless @site.members_enabled}}
                     {{#match @custom.navigation_layout "Stacked"}}

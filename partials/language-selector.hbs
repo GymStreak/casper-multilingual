@@ -1,0 +1,40 @@
+<div class="language-selector">
+    <button class="language-button">
+        {{#if @site.locale}}
+            {{#match @site.locale "en"}} 🇬🇧 
+            {{else match @site.locale "es"}} 🇪🇸 
+            {{else match @site.locale "ta"}} 🇮🇳 
+            {{else match @site.locale "pt"}} 🇧🇷 
+            {{else match @site.locale "nl"}} 🇳🇱 
+            {{else match @site.locale "ar"}} 🇸🇦 
+            {{else match @site.locale "de"}} 🇩🇪 
+            {{else match @site.locale "el"}} 🇬🇷 
+            {{else match @site.locale "fr"}} 🇫🇷 
+            {{else match @site.locale "hi"}} 🇮🇳 
+            {{else match @site.locale "ja"}} 🇯🇵 
+            {{else match @site.locale "ms"}} 🇲🇾 
+            {{else match @site.locale "ru"}} 🇷🇺 
+            {{else match @site.locale "zh"}} 🇨🇳 
+        {{/match}}
+        {{/if}}
+    </button>
+    <div class="language-dropdown">
+        <ul>
+            <li><a href="https://gymstreak.com">🇬🇧 {{t "English"}}</a></li>
+            <li><a href="https://nl.gymstreak.com">🇳🇱 {{t "Nederlands"}}</a></li>
+            <li><a href="https://pt.gymstreak.com">🇧🇷 {{t "Português"}}</a></li>
+            <li><a href="https://es.gymstreak.com">🇪🇸 {{t "Español"}}</a></li>
+            <li><a href="https://ar.gymstreak.com">🇸🇦 {{t "العربية"}}</a></li>
+            <li><a href="https://de.gymstreak.com">🇩🇪 {{t "Deutsch"}}</a></li>
+            <li><a href="https://el.gymstreak.com">🇬🇷 {{t "Ελληνικά"}}</a></li>
+            <li><a href="https://fr.gymstreak.com">🇫🇷 {{t "Français"}}</a></li>
+            <li><a href="https://hi.gymstreak.com">🇮🇳 {{t "हिन्दी"}}</a></li>
+            <li><a href="https://ja.gymstreak.com">🇯🇵 {{t "日本語"}}</a></li>
+            <li><a href="https://ms.gymstreak.com">🇲🇾 {{t "Melayu"}}</a></li>
+            <li><a href="https://ru.gymstreak.com">🇷🇺 {{t "Русский"}}</a></li>
+            <li><a href="https://zh.gymstreak.com">🇨🇳 {{t "中文"}}</a></li>
+            <!-- Add more languages as needed -->
+        </ul>
+    </div>
+</div>
+
